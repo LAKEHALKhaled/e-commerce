@@ -8,9 +8,9 @@ const Container =styled.div`
    height: 60px;
    `
 const Wrapper = styled.div`
-   padding: 10px 20px;
+   padding:1px 20px;
    display: flex;
-   justify-content:space-between;
+   justify-content: space-between;
    align-items: center;
 `
 const Input = styled.input`
@@ -61,10 +61,10 @@ const Navbar = () => {
                         <Search style={{color:"gray", fontSize: 16}}/>
                     </SearchContainer>
                 </Left>
-                <Center><Logo>StarGlow.Product</Logo></Center>
+                <Center><Logo>Star Glow Product</Logo></Center>
                 <Right>
-                    <MenuItem>REGISTER</MenuItem>
-                    <MenuItem>SIGN IN</MenuItem>
+                    <MenuItem>Email</MenuItem>
+                    <MenuItem>Phone</MenuItem>
                     <MenuItem>
                     <Badge badgeContent = {4} color = "primary">
                     <ShoppingCartOutlined/>
